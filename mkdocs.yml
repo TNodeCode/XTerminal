@@ -1,0 +1,25 @@
+site_name: XTerminal
+site_description: Lightweight helpers to run local and SSH processes with event hooks
+repo_url: https://github.com/TNodeCode/XTerminal
+site_author: Tilo Flasche
+theme:
+  name: material
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths:
+            - src/xterminal
+          options:
+            docstring_style: google
+nav:
+  - Home: index.md
+  - Usage: usage.md
+  - API:
+      - Process: api/process.md
+      - Terminal: api/terminal.md
+      - SSHProcess: api/ssh_process.md
+      - SSHTerminal: api/ssh_terminal.md
+      - MultiClientSSHTerminal: api/multi_client_ssh_terminal.md
+      - BackgroundProcesses: api/background_processes.md
