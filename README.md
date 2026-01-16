@@ -2,9 +2,15 @@
 
 This module provides a nicer interface to the Python subprocess library.
 
-## How to use this library
+## Installation:
 
-### Running processes
+```bash
+pip install xterminal
+```
+
+PyPi: https://pypi.org/project/xterminal/
+
+## Running processes
 
 ```python
 from xterminal import Process
